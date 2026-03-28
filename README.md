@@ -8,12 +8,14 @@ This project is a high-performance Loan Eligibility Prediction System that bridg
 
 
 Key Highlights
+
 Automated ML Pipeline: Evaluates multiple algorithms and deploys the highest-performing model automatically.
 85% Prediction Accuracy: Optimized using ensemble learning methods.
 Professional FinTech UI: A sleek, responsive neon-dark themed interface designed for optimal user experience.
 
 
 1. Technical Architecture
+
 The system is built using a modular "Data-to-UI" approach:
 Data Layer: Managed with pandas for cleaning and preprocessing the loan_data.csv dataset.
 Logic Layer: A Python-based training engine that pits Logistic Regression, Decision Trees, and Random Forests against each other.
@@ -22,6 +24,7 @@ Presentation Layer: A modern frontend (HTML5/CSS3/JS) that visualizes the result
 
 
 2. Machine Learning Deep Dive
+
 In the train_model.py script, the project performs a "Battle of the Models" to ensure maximum reliability.
 Models Evaluated:
 Logistic Regression: Established a mathematical baseline for linear probability.
@@ -34,12 +37,14 @@ Random Forest (The Winner): An ensemble method utilizing 100 decision trees to r
 <img width="905" height="359" alt="Screenshot 2026-03-28 075035" src="https://github.com/user-attachments/assets/dbaa3cfb-4a71-4b8e-926e-616b30548d6e" />
 
 4. Quick Start
+
 Install: pip install pandas scikit-learn
 Train: Run python train_model.py to generate best_model.pkl.
 Test: Run python predict.py to check eligibility via terminal.
 
 
 5. Key Features of the UI
+
 Based on the implementation, the web interface includes:
 Interactive Input Controls: Credit score sliders and employment toggles for effortless data entry.
 Model Comparison Cards: Displays the accuracy and logic types for all evaluated models.
