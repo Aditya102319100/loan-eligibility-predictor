@@ -52,4 +52,10 @@ Based on the implementation, the web interface includes:
 Interactive Input Controls: Credit score sliders and employment toggles for effortless data entry.
 Model Comparison Cards: Displays the accuracy and logic types for all evaluated models.
 Instant Result Feedback: Dynamic color-coded alerts (✅ Approved / ❌ Rejected) based on model output.
+<img width="1811" height="857" alt="Screenshot 2026-03-28 073549" src="https://github.com/user-attachments/assets/0549d26c-c57c-42be-97e9-08be5a2c2ceb" />
+<img width="1787" height="866" alt="Screenshot 2026-03-28 073612" src="https://github.com/user-attachments/assets/0bddbcce-2f31-4bdd-969b-5bd02587e92b" />
+<img width="1508" height="724" alt="Screenshot 2026-03-28 073642" src="https://github.com/user-attachments/assets/72bd16a6-e130-411e-9e32-fc45db0b3f1e" />
+<img width="1870" height="857" alt="Screenshot 2026-03-28 073711" src="https://github.com/user-attachments/assets/6a9c53fd-65b6-48f2-94cf-a3e028c8e7e4" />
+<img width="1384" height="744" alt="Screenshot 2026-03-28 073653" src="https://github.com/user-attachments/assets/e6c4b3f9-8555-45f6-aafd-cece7b48dc6d" />
+<img width="1878" height="873" alt="Screenshot 2026-03-28 073728" src="https://github.com/user-attachments/assets/88317ee3-8818-408a-bfe9-f833f41e942a" />
 
