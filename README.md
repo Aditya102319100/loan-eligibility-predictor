@@ -31,16 +31,7 @@ Random Forest (The Winner): An ensemble method utilizing 100 decision trees to r
 
 3. Repository Structure
 
-├── data/
-│   └── loan_data.csv        # Financial training dataset
-├── src/
-│   ├── train_model.py       # ML training & model selection logic
-│   ├── predict.py           # CLI-based real-time predictor
-│   └── best_model.pkl       # The serialized "winning" model
-├── web/
-│   ├── index.html           # Main UI / Calculator interface
-│   └── style.css            # Custom neon-dark theme styling
-└── README.md                # In-depth project documentation
+<img width="905" height="359" alt="Screenshot 2026-03-28 075035" src="https://github.com/user-attachments/assets/dbaa3cfb-4a71-4b8e-926e-616b30548d6e" />
 
 4. Quick Start
 Install: pip install pandas scikit-learn
