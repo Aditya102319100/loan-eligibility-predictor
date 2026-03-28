@@ -38,7 +38,7 @@ Random Forest (The Winner): An ensemble method utilizing 100 decision trees to r
 │   └── best_model.pkl       # The serialized "winning" model
 ├── web/
 │   ├── index.html           # Main UI / Calculator interface
-│   └── style.css            # Custom neon-dark theme styling        
+│   └── style.css            # Custom neon-dark theme styling
 └── README.md                # In-depth project documentation
 
 4. Quick Start
