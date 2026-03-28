@@ -30,6 +30,7 @@ Random Forest (The Winner): An ensemble method utilizing 100 decision trees to r
 
 
 3. Repository Structure
+
 ├── data/
 │   └── loan_data.csv        # Financial training dataset
 ├── src/
