@@ -4,14 +4,14 @@ An End-to-End Machine Learning Web Application
 📖 Project Overview
 This project is a high-performance Loan Eligibility Prediction System that bridges the gap between raw data science and modern web design. By analyzing key financial indicators—Income, Credit Score, Employment Status, and Loan Amount—the system provides a real-time assessment of an applicant's eligibility.
 
-🎯 Key Highlights
+Key Highlights
 Automated ML Pipeline: Evaluates multiple algorithms and deploys the highest-performing model automatically.
 
 85% Prediction Accuracy: Optimized using ensemble learning methods.
 
 Professional FinTech UI: A sleek, responsive neon-dark themed interface designed for optimal user experience.
 
-🏗️ Technical Architecture
+1. Technical Architecture
 The system is built using a modular "Data-to-UI" approach:
 
 Data Layer: Managed with pandas for cleaning and preprocessing the loan_data.csv dataset.
@@ -22,7 +22,7 @@ Persistence Layer: The winning model is serialized using pickle for instant load
 
 Presentation Layer: A modern frontend (HTML5/CSS3/JS) that visualizes the results and model statistics.
 
-🧠 Machine Learning Deep Dive
+2. Machine Learning Deep Dive
 In the train_model.py script, the project performs a "Battle of the Models" to ensure maximum reliability.
 
 Models Evaluated:
@@ -32,7 +32,7 @@ Decision Tree: Captured non-linear decision boundaries through recursive partiti
 
 Random Forest (The Winner): An ensemble method utilizing 100 decision trees to reduce variance and minimize overfitting.
 
-📂 Repository Structure
+3. Repository Structure
 ├── data/
 │   └── loan_data.csv        # Financial training dataset
 ├── src/
@@ -45,13 +45,13 @@ Random Forest (The Winner): An ensemble method utilizing 100 decision trees to r
 ├── requirements.txt         # Project dependencies
 └── README.md                # In-depth project documentation
 
-⚡ Quick Start
+4. Quick Start
 Install: pip install pandas scikit-learn
 
 Train: Run python train_model.py to generate best_model.pkl.
 
 Test: Run python predict.py to check eligibility via terminal.
-🚀 Key Features of the UI
+5. Key Features of the UI
 Based on the implementation, the web interface includes:
 
 Interactive Input Controls: Credit score sliders and employment toggles for effortless data entry.
@@ -59,3 +59,4 @@ Interactive Input Controls: Credit score sliders and employment toggles for effo
 Model Comparison Cards: Displays the accuracy and logic types for all evaluated models.
 
 Instant Result Feedback: Dynamic color-coded alerts (✅ Approved / ❌ Rejected) based on model output.
+
