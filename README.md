@@ -3,6 +3,7 @@
 An End-to-End Machine Learning Web Application
 
 📖 Project Overview
+
 This project is a high-performance Loan Eligibility Prediction System that bridges the gap between raw data science and modern web design. By analyzing key financial indicators—Income, Credit Score, Employment Status, and Loan Amount—the system provides a real-time assessment of an applicant's eligibility.
 
 
@@ -37,8 +38,7 @@ Random Forest (The Winner): An ensemble method utilizing 100 decision trees to r
 │   └── best_model.pkl       # The serialized "winning" model
 ├── web/
 │   ├── index.html           # Main UI / Calculator interface
-│   └── style.css            # Custom neon-dark theme styling
-├── requirements.txt         # Project dependencies
+│   └── style.css            # Custom neon-dark theme styling        
 └── README.md                # In-depth project documentation
 
 4. Quick Start
